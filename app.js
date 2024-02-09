@@ -17,6 +17,7 @@ const genComputerChoice = () => {
 const drawGame = () => {
   console.log("Game was draw.");
   message.innerText = "Match draw.  Play again !";
+  message.style.backgroundColor = "#081b31";
 };
 
 // Here you show either user Wins or lose
